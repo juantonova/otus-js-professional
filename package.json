@@ -1,0 +1,19 @@
+{
+  "name": "otus-js-professional",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juantonova/otus-js-professional.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juantonova/otus-js-professional/issues"
+  },
+  "homepage": "https://github.com/juantonova/otus-js-professional#readme",
+  "description": ""
+}
