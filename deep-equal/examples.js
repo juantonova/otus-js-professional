@@ -83,4 +83,7 @@ const obj6 = {
     },
  };
 
-module.exports = { obj1, obj2, obj3, obj4, obj5, obj6, obj7 }
+const obj8 = { a: null }
+const obj9 = { a: {} }
+
+module.exports = { obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9 }
