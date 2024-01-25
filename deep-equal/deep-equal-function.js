@@ -1,7 +1,6 @@
 
 const { obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9 } = require('./examples');
-
-const isObject = (obj) => typeof obj === 'object' && obj !== null;
+const isObject = require('../utils/isObject');
 
 const deepEqual = (actual, expected, errorStep = "") => {
     if (actual === expected) return true;

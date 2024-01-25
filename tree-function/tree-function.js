@@ -1,14 +1,15 @@
-const example = require('./example');
+const isObject = require('../utils/isObject');
 
 const verticalStick = '|';
 const horizontalStick = '_';
 const branch = verticalStick + horizontalStick;
 
-function tree(obj, line = "") {
+function print(obj, line = "") {
+    if (!isObject(obj)) return;
     if (Array.isArray(obj)) {
         obj.forEach((el, i) => {
             const updatedLine = `${line}${(i !== obj.length - 1) ? verticalStick : ""}`;
-            tree(el, updatedLine);
+            print(el, updatedLine);
         })
         return;
     }
@@ -21,8 +22,8 @@ function tree(obj, line = "") {
             } 
             console.log(`${line}${additionalLine}${obj[key]}`);
         }
-        tree(obj[key], `${line} `);
+        print(obj[key], `${line} `);
     }
 }
 
-tree(example);
+module.exports = print
