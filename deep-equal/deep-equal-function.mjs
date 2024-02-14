@@ -1,6 +1,6 @@
 
-const { obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9 } = require('./examples');
-const isObject = require('../utils/isObject');
+import { obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9 } from './examples.mjs';
+import { isObject } from '../utils/isObject.mjs';
 
 const deepEqual = (actual, expected, errorStep = "") => {
     if (actual === expected) return true;

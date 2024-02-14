@@ -1,4 +1,4 @@
-const example = {
+export const example = {
     name: 1,
     items: [{
       name: 2,
@@ -20,5 +20,3 @@ const example = {
       }],
   
     }
-
-    module.exports = example;

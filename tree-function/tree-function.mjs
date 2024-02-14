@@ -1,10 +1,10 @@
-const isObject = require('../utils/isObject');
+import { isObject } from '../utils/isObject.mjs';
 
 const verticalStick = '|';
 const horizontalStick = '_';
 const branch = verticalStick + horizontalStick;
 
-function print(obj, line = "") {
+export function print(obj, line = "") {
     if (!isObject(obj)) return;
     if (Array.isArray(obj)) {
         obj.forEach((el, i) => {
@@ -25,5 +25,3 @@ function print(obj, line = "") {
         print(obj[key], `${line} `);
     }
 }
-
-module.exports = print

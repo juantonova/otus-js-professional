@@ -1,5 +1,5 @@
 
-const obj1 = {
+export const obj1 = {
     a: {
     b: '1',
     },
@@ -14,15 +14,15 @@ const obj1 = {
     },
  };
 
-const obj2 = {
+export const obj2 = {
     a: {
     b: '1',
     },
 }
 
-const obj3 = {};
+export const obj3 = {};
 
-const obj4 = {
+export const obj4 = {
     a: {
     b: '1',
     },
@@ -37,7 +37,7 @@ const obj4 = {
     }
 }; 
 
-const obj5 = {
+export const obj5 = {
     a: {
     b: '1',
     },
@@ -52,7 +52,7 @@ const obj5 = {
     }
 }; 
 
-const obj6 = {
+export const obj6 = {
     a: {
     b: '1',
     },
@@ -67,7 +67,7 @@ const obj6 = {
     },
  };
 
- const obj7 = {
+export const obj7 = {
     a: {
     b: '1',
     },
@@ -83,7 +83,6 @@ const obj6 = {
     },
  };
 
-const obj8 = { a: null }
-const obj9 = { a: {} }
+export const obj8 = { a: null }
+export const obj9 = { a: {} }
 
-module.exports = { obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9 }

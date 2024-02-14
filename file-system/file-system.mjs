@@ -1,5 +1,5 @@
 const fs = require('fs/promises');
-const print = require('../tree-function/tree-function');
+import { print } from '../tree-function/tree-function.mjs';
 
 const readDirectories = async (path, level, step = 0) => {
   const name = path.split('/').at(-1);
