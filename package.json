@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "tree": "node file-system/file-system.js"
   },
   "repository": {
@@ -16,5 +16,9 @@
     "url": "https://github.com/juantonova/otus-js-professional/issues"
   },
   "homepage": "https://github.com/juantonova/otus-js-professional#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^24.0.0"
+  }
 }
