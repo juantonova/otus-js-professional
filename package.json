@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/juantonova/otus-js-professional#readme",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-only-warn": "^1.1.0",
     "jest": "^29.7.0",
     "jsdom": "^24.0.0"
   }
